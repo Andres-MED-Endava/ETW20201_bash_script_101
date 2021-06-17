@@ -1,6 +1,11 @@
 #!/bin/bash
 # invetigate about sheband
 
+# Update the system and get the dependencies
+sudo apt-get update
+sudo apt install nmap -y
+
+
 
 # Show A banner or Logo
 
