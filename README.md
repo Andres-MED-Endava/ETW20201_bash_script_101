@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 <!--- These are just example requirements. Add, duplicate or remove as required --->
 * for windows user enable `Windows Subsystem Linux (WSL)`
 * install the diferent tools that you like to use 
-* You basic knowless over `CM` o `Bash`.
+* basic knowledge over `CM` o `Bash`.
 
 ## Installing <hackerscript>
 

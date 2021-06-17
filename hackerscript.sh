@@ -22,6 +22,6 @@ targetIP=$(host $targetURL | grep "has address" | cut -d " " -f 4)
 
 
 # Get the open ports of the public IP
-echo "THe target URL has the next port expose to Internet"
+echo "The target URL has the next port expose to Internet"
 nmap $targetIP | grep "open" | cut -d " " -f 1
 
