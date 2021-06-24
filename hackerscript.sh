@@ -2,8 +2,16 @@
 # invetigate about sheband
 
 # Update the system and get the dependencies
-sudo apt-get update
+
+if ! nmap -v COMMAND &> /dev/null
+then
+    echo "Nmap could not be found, installing..."
+sudo apt-get update && sudo apt-get upgrade
 sudo apt install nmap -y
+
+    exit
+fi
+
 
 
 
